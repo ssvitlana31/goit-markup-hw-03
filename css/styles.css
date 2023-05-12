@@ -14,12 +14,32 @@
   color: inherit;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: #434455;
   background-color: var(--brend-background-color);
+}
+
+.coteiner {
+  width: 1440;
+  margin: 0 auto;
 }
 
 /* Header*/
