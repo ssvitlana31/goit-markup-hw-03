@@ -246,22 +246,33 @@ body {
 /* Footer */
 .footer {
   background: #2e2f42;
-  height: 312px;
+  padding: 100px;
 }
 .footer-conteiner {
-  height: 312px;
+  margin-left: auto;
+  margin-bottom: 100px;
 }
+.footer-link {
+  display: flex;
+}
+
 .logotype-dark {
   color: #f4f4fd;
 }
 .footer-text {
   font-weight: 400;
   color: #f4f4fd;
+  width: 264px;
+  margin-top: 16px;
 }
 
 /* Portfolio */
 
 /* Filters */
+.filters-link {
+  display: flex;
+  margin: 96px 427px 72px;
+}
 .filters-button {
   font-family: inherit;
   font-weight: 500;
@@ -272,11 +283,19 @@ body {
   color: var(--logo-color);
   background-color: var(--button-background-color);
   cursor: pointer;
+  display: block;
 }
 .filters-button:hover,
 .filters-button:focus {
   color: #ffffff;
   background: #404bbf;
+}
+.projects-link-conteiner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.projects-link {
 }
 .projects-title {
   font-weight: 500;
@@ -284,6 +303,8 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--brend-color);
+  margin: 32px 54px 8px 16px;
+  margin-bottom: 8px;
 }
 
 .projects-item {
