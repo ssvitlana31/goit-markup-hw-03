@@ -4,6 +4,7 @@
   --brend-color: #2e2f42;
   --logo-color: #4d5ae5;
   --second-color: #434455;
+  --brend-color-border: #e7e9fc;
 }
 
 .list {
@@ -318,10 +319,19 @@ body {
 
 /* Portfolio */
 
+.main-portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
 /* Filters */
+
 .filters-link {
   display: flex;
-  margin: 96px 427px 72px;
+  margin: 0 427px 72px;
+  justify-content: center;
+  gap: 24px;
+  padding-bottom: 72px;
 }
 .filters-button {
   font-family: inherit;
@@ -332,18 +342,23 @@ body {
   letter-spacing: 0.04em;
   color: var(--logo-color);
   background-color: var(--button-background-color);
+  border: 1px solid var(--brend-color-border);
+  border-radius: 4px;
   cursor: pointer;
   display: block;
+  padding: 12px 24px;
 }
 .filters-button:hover,
 .filters-button:focus {
   color: #ffffff;
   background: #404bbf;
+  border: 1px solid transparent;
 }
 .projects-link-conteiner {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 .projects-link {
 }
