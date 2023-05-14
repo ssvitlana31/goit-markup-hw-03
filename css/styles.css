@@ -360,6 +360,9 @@ body {
   column-gap: 24px;
   row-gap: 48px;
 }
+.projects-list {
+  width: calc((100%-48px) / 3);
+}
 .projects-link {
 }
 .projects-title {
@@ -368,7 +371,6 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--brend-color);
-  margin: 32px 54px 8px 16px;
   margin-bottom: 8px;
 }
 
@@ -377,4 +379,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--second-color);
+}
+.description {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
