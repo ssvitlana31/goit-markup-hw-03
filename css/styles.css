@@ -50,6 +50,7 @@ body {
 /* Header*/
 .header-container {
   border-bottom: 1px solid #e7e9fc;
+  margin: 0 auto;
 }
 .navigation-container {
   display: flex;
@@ -86,6 +87,7 @@ body {
 
 .menu-item {
   margin-right: 40px;
+  padding: 24px 0;
 }
 
 .menu-item:last-child {
@@ -243,6 +245,7 @@ body {
 }
 .work-item {
   margin-right: 24px;
+  width: calc((100%-48px) / 3);
 }
 .work-item:last-child {
   margin-right: 0;
@@ -364,6 +367,7 @@ body {
   width: calc((100%-48px) / 3);
 }
 .projects-link {
+  width: calc((100%-48px) / 3);
 }
 .projects-title {
   font-weight: 500;
