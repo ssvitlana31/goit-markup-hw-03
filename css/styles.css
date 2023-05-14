@@ -29,6 +29,9 @@ ol {
   margin: 0;
   padding: 0;
 }
+img {
+  display: block;
+}
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -50,10 +53,12 @@ body {
 .navigation-container {
   display: flex;
   height: 72px;
+  margin: 0 auto;
 }
 .navigation {
   display: flex;
   align-items: center;
+  margin-right: 332px;
 }
 .logotype {
   font-family: "Raleway", sans-serif;
@@ -64,6 +69,7 @@ body {
   text-transform: uppercase;
   color: var(--logo-color);
   display: inline-block;
+  margin-right: 76px;
   padding: 24px 0;
   /* padding-top: 24px; padding-bottom: 24px; */
 }
@@ -74,7 +80,7 @@ body {
 
 .menu {
   display: flex;
-  margin: 24px auto;
+  margin: 24px 0;
 }
 
 .menu-item {
@@ -115,14 +121,20 @@ body {
   display: flex;
   margin: 24px auto;
 }
+.contacts-item {
+  display: flex;
+  margin-left: 0;
+}
 
-.contacts {
+.contacts-item:last-child {
+  margin-right: ;
+}
+.contacts-list {
   margin-right: 40px;
 }
-.contcontacts:last-child {
+.contacts-list:last-child {
   margin-right: 0;
 }
-
 .contacts-list-link {
   color: var(--second-color);
 }
@@ -139,6 +151,7 @@ body {
   border: 1px solid #000000;
   padding: 188px 0;
 }
+
 .main-title {
   font-weight: 700;
   font-size: 56px;
@@ -210,6 +223,9 @@ body {
 
 /*Our works*/
 
+.work-container {
+  padding-bottom: 120px;
+}
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -223,9 +239,11 @@ body {
 .work-list {
   display: flex;
   width: calc((100%-48px) / 3);
+}
+.work-item {
   margin-right: 24px;
 }
-.work-list :last-child {
+.work-item:last-child {
   margin-right: 0;
 }
 
@@ -233,17 +251,14 @@ body {
 
 .team {
   background: #f4f4fd;
-  margin-top: 120px;
+  padding: 120px 0;
 }
 .section-title {
   margin-bottom: 72px;
 }
 .team-list {
   display: flex;
-  margin-right: 24px;
-}
-.team-list :last-child {
-  margin-right: 0;
+  gap: 24px;
 }
 
 .team-list-item {
