@@ -130,7 +130,7 @@ body {
 }
 
 .contacts-item:last-child {
-  margin-right: ;
+  margin-right: 0;
 }
 .contacts-list {
   margin-right: 40px;
@@ -245,7 +245,7 @@ body {
 }
 .work-item {
   margin-right: 24px;
-  width: calc((100%-48px) / 3);
+  flex-basis: calc((100% - 48px) / 3);
 }
 .work-item:last-child {
   margin-right: 0;
@@ -364,11 +364,9 @@ body {
   row-gap: 48px;
 }
 .projects-list {
-  width: calc((100%-48px) / 3);
+  width: calc((100% - 48px) / 3);
 }
-.projects-link {
-  width: calc((100%-48px) / 3);
-}
+
 .projects-title {
   font-weight: 500;
   font-size: 20px;
