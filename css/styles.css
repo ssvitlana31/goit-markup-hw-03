@@ -55,6 +55,7 @@ body {
   display: flex;
   height: 72px;
   padding: 0 15px 0 15px;
+  margin: 0 auto;
 }
 .navigation {
   display: flex;
