@@ -154,6 +154,7 @@ body {
   background-color: #2e2f42;
   border: 1px solid #000000;
   padding: 188px 0;
+  background-image: url(/images/people-office.jpg);
 }
 
 .main-title {
@@ -202,7 +203,6 @@ body {
 }
 .features-list {
   display: flex;
-  margin-top: 120px;
 }
 .features-title {
   font-weight: 500;
@@ -238,7 +238,6 @@ body {
   text-transform: capitalize;
   text-align: center;
   color: var(--brend-color);
-  padding-bottom: 120px;
 }
 .work-list {
   display: flex;
@@ -318,7 +317,6 @@ body {
   font-weight: 400;
   color: #f4f4fd;
   width: 264px;
-  margin-top: 16px;
 }
 
 /* Portfolio */
@@ -332,7 +330,7 @@ body {
 
 .filters-link {
   display: flex;
-  margin: 0 427px 72px;
+
   justify-content: center;
   gap: 24px;
   padding-bottom: 72px;
